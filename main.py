@@ -83,6 +83,8 @@ st.markdown("""
 # api_url = "http://leaf-diseases-detect.vercel.app"
 api_url = "https://web-production-2ef97.up.railway.app"
 
+
+
 col1, col2 = st.columns([1, 2])
 with col1:
     uploaded_file = st.file_uploader(
@@ -97,8 +99,15 @@ with col2:
                 try:
                     files = {
                         "file": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)}
+                    headers = {
+                        "x-api-key": "supersecret123"
+                        }
+
                     response = requests.post(
-                        f"{api_url}/disease-detection-file", files=files)
+                        f"{api_url}/disease-detection-file",
+                        files=files,
+                        headers=headers
+                    )
                     if response.status_code == 200:
                         result = response.json()
 
