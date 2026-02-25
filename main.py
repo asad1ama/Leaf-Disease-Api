@@ -2,9 +2,9 @@
 
 import streamlit as st
 import requests
+import os
 
-import streamlit as st
-import requests
+
 
 # Set Streamlit theme to light and wide mode
 st.set_page_config(
@@ -81,7 +81,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # api_url = "http://leaf-diseases-detect.vercel.app"
-api_url = "https://web-production-2ef97.up.railway.app"
+api_url = "https://leaf-disease-api-production-1c3b.up.railway.app"
 
 
 
@@ -100,7 +100,7 @@ with col2:
                     files = {
                         "file": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)}
                     headers = {
-                        "x-api-key": "supersecret123"
+                        "x-api-key": os.getenv("API_SECRET")
                         }
 
                     response = requests.post(
