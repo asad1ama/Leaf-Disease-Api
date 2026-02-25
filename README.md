@@ -56,13 +56,13 @@ The **DiseaseAnalysisResult DataClass** serves as a structured container for dis
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
-- **Python 3.8+** (3.9+ recommended for optimal performance)
+- **Python 3.11+** (3.11+ recommended for optimal performance)
 - **Groq API Key** ([Get your free key here](https://console.groq.com/))
 - **Git** for repository cloning
 
 ### 1. Repository Setup
 **Clone the repository:**
-- Run: git clone https://github.com/shukur-alom/leaf-diseases-detect.git
+- Run: git clone 
 - Navigate to: cd leaf-diseases-detect/Front
 
 **Create and activate virtual environment (recommended):**
@@ -239,9 +239,6 @@ This project is optimized for Vercel with the included vercel.json configuration
 - Expose port 8000
 - Run with uvicorn app:app
 
-#### Heroku Deployment
-**Deploy to Heroku:**
-- Commands: heroku create your-app-name, heroku config:set GROQ_API_KEY=your_api_key, git push heroku main
 
 ## 🔧 Advanced Configuration
 
@@ -357,7 +354,7 @@ The analyze_leaf_image_base64 method follows these steps:
 
 ### Development Setup
 **Fork and clone the repository:**
-- Commands: git clone https://github.com/your-username/leaf-diseases-detect.git, cd leaf-diseases-detect/Front
+- Commands: git clone https://github.com/asad1ama/Leaf-Disease-Api/, cd leaf-diseases-detect/Front
 
 **Create development environment:**
 - Commands: python -m venv dev-env, .\dev-env\Scripts\Activate.ps1
@@ -436,8 +433,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 - **Technical Support**: Priority support packages for production deployments
 
 ### Contact Information
-- **Project Maintainer**: [@shukur-alom](https://github.com/shukur-alom)
-- **Project Repository**: [leaf-diseases-detect](https://github.com/shukur-alom/leaf-diseases-detect)
+- **Project Maintainer**: [@Asad Amanullah](https://github.com/asad1ama)
+- **Project Repository**: [leaf-diseases-detect](https://github.com/asad1ama/Leaf-Disease-Api/tree/main)
 - **Issue Tracking**: GitHub Issues for bug reports and feature requests
 - **Email Support**: Available through GitHub contact options
 
@@ -483,7 +480,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ![Plant Health](https://img.shields.io/badge/Plant%20Health-AI%20Powered-brightgreen?style=for-the-badge&logo=leaf)
 ![Precision Agriculture](https://img.shields.io/badge/Precision%20Agriculture-Innovation-orange?style=for-the-badge&logo=agriculture)
 
-[🚀 **Live Demo**](https://leaf-diseases-detect5.streamlit.app) • [🐛 **Report Issues**](https://github.com/shukur-alom/leaf-diseases-detect/issues) • [💡 **Request Features**](https://github.com/shukur-alom/leaf-diseases-detect/discussions)
+[🚀 **Live Demo**](https://leaf-diseaseprediction.streamlit.app/) • [🐛 **Report Issues**](https://github.com/asad1ama/leaf-diseases-detect/issues) 
 
 **Star ⭐ this repository if it helped you protect your plants!**
 
